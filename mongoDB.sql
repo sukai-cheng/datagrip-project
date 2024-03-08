@@ -1,0 +1,1 @@
+select count(*) from auto_match_rod;
