@@ -17,6 +17,16 @@ where round(sysdate - TO_DATE(to_char(t.CREATE_DATE, 'yyyy-MM-dd'), 'yyyy-MM-dd'
   and (t.DL_STATUS = 2 or t.DL_STATUS = 3)
 order by m.NAME_CN;
 
+-- 创建视图
+CREATE OR REPLACE VIEW TT_CDI_V
+AS
+SELECT T.PP_NO,
+       T.II_DATA
+FROM TT_CDI T
+         INNER JOIN TM_II T2
+                    ON T.TM_II_ID = T2.TM_II_ID
+where T2.TM_II_ID = 1442
+  and round(sysdate - TO_DATE(to_char(t.CREATE_DATE, 'yyyy-MM-dd'), 'yyyy-MM-dd')) < 180;
 
 
 -- 查询序列值
