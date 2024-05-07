@@ -1,0 +1,1 @@
+select * from t_DeviceCollectionData order by LastUpdateTime desc ;
