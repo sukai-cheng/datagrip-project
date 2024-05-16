@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/WMS-生产环境.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/mongodb相关SQL/mongoDB.sql" dialect="MongoDB" />
     <file url="file://$PROJECT_DIR$/合成棒MES-测试环境/创建视图,添加索引,查看序列.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/合成棒MES-测试环境/刷新统计信息.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/合成棒MES-测试环境/工艺路径相关SQL.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/合成棒MES-测试环境/计划相关SQL.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/合成棒MES-测试环境/订单相关SQL.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/合成棒MES-生产环境/数据库调优.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/合成棒MES-生产环境/校验相关sql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/集控-生产环境/集控相关sql.sql" dialect="TSQL" />
     <file url="file://$USER_HOME$/同步空间/db/mes.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="TSQL" />
