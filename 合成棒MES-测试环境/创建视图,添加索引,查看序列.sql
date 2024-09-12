@@ -31,3 +31,14 @@ where T2.TM_II_ID = 1442
 
 -- 查询序列值
 select SEQ_TC_CODE_TYPE_ID.nextval from DUAL;
+
+BEGIN
+   DBMS_STATS.gather_table_stats(ownname => 'HTMES',
+                   estimate_percent => 30,
+                   degree => 4,
+                                  tabname=>'TT_RM_LOT',
+                                  CASCADE => true,
+                   no_invalidate => false
+                                 );
+END;
+/
